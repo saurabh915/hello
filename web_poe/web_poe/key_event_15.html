@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>HTML DOM Events</h1>
+<h2>The onkeydown Event</h2>
+
+<p>Press a key in the input field:</p>
+
+<input type="text" onkeydown="myFunction()">
+
+<p id="demo"></p>
+
+
+<h1>HTML DOM Events</h1>
+<h2>The Onkeyup Event</h2>
+Enter your name: <input type="text" id="fname" onkeyup="myFunctionup()">
+
+
+<h1>HTML DOM Events</h1>
+<h2>The Onkeypress Event</h2>
+<p>A function onkeypress used input field.</p>
+
+<input type="text" onkeypress="myFunction()">
+<script>
+function myFunction() {
+  element.style.backgroundColor = "red";
+  document.getElementById("demo").innerHTML = "You pressed a key inside the input field";
+}
+
+function myFunctionup() {
+  let x = document.getElementById("fname");
+  x.value = x.value.toUpperCase();
+}
+
+function myFunction() {
+  alert("You pressed a key inside the input field");
+}
+</script>
+
+</body>
+</html>

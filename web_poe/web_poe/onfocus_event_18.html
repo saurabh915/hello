@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>HTML DOM Events</h1>
+<h2>The focus Event</h2>
+<form action="action_page.php" onsubmit="myFunction2()" >
+ 
+Enter your name: <input type="text" name="fname" onfocus="myFunction(this)" >
+<input type="submit" value="Submit">
+</form>
+<p>When the input field gets focus, a function changes the background-color.</p>
+
+<script>
+function myFunction(x) {
+  x.style.background = "red";
+}
+function myFunction2() {
+  alert("The form was submitted");
+}
+</script>
+</body>
+</html>

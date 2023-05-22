@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Application</title>
+  <link rel="stylesheet" type="text/css" href="external_2.css">
+</head>
+<body>
+  <header>
+    <h1>My Application</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Welcome to My Application</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non faucibus nulla. Nam sed risus ullamcorper, dignissim leo at, maximus ex. Phasellus sagittis ante tellus.</p>
+    </section>
+
+    <section>
+      <h2>About</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt congue semper. Fusce vehicula ex eget turpis congue, id suscipit purus pretium.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <form id="contactForm" method="post" action="submit.php">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 My Application. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>HTML DOM Events</h1>
+<h2>The onclick Event</h2>
+
+<p>The onclick event triggers a function when an element is clicked on.</p>
+<p>Click to trigger a function that will output "Hello World":</p>
+<button onclick="myFunction()">Click me</button>
+<p id="demo"></p>
+
+<p><h3>The onmouseover and onmouseup event triggers a function when an element is clicked on.</p>
+<p>image will chnage size":</h3></p>
+
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="large.jpg" alt="Smiley" width="32" height="32">
+
+
+<p><h3>The mouseDown() function sets the color of this text to red.
+The mouseUp() function sets the color of this text to blue.</h3></p>
+<p id="myP" onmousedown="mouseDown()" onmouseup="mouseUp()">click to see on mouse down and onmouse event of mouse 
+</p>
+
+<p><h3>The mousemove() function ..</h3></p>
+ <p onmousemove = "sayHello()">This is demo text for mousemove event.</p>
+
+
+
+
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+
+function bigImg(x) {
+  x.style.height = "64px";
+  x.style.width = "64px";
+}
+
+function normalImg(x) {
+  x.style.height = "32px";
+  x.style.width = "32px";
+}
+
+function mouseDown() {
+  document.getElementById("myP").style.color = "red";
+}
+
+function mouseUp() {
+  document.getElementById("myP").style.color = "blue";
+}
+
+function sayHello() {
+               alert("Mouse Move")
+            }
+</script>
+
+</body>
+</html>

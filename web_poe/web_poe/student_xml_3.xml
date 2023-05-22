@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Rule_3.css"?>
+<college>
+    <heading> STUDENT INFORMATION </heading>
+    <student>
+        <title>Name -: nidhi sharma</title>
+        <class>Class -: FY B.tech</class>
+        <marks>98</marks>
+        <status>Pass</status>
+    </student>
+    <student>
+        <title>Name -: ruhi chabra</title>
+        <class>Class -: SY B.tech</class>
+        <marks>32</marks>
+        <status>Fail</status>
+    </student>
+	<student>
+        <title>Name -: rinku sharma</title>
+        <class>Class -: FY B.tech</class>
+        <marks>45</marks>
+        <status>Pass</status>
+    </student>
+	<student>
+        <title>Name -: janhvi warma</title>
+        <class>Class -: LY B.tech</class>
+        <marks>25</marks>
+        <status>fail</status>
+    </student>
+	<student>
+        <title>Name -: jindnya kevli</title>
+        <class>Class -: FY B.tech</class>
+        <marks>98</marks>
+        <status>Pass</status>
+    </student>
+</college>
