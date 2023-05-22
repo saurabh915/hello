@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE garden[
+    <!ELEMENT garden (plants)>
+    <!ELEMENT plants (#PCDATA)>
+    <!ATTLIST plants catagory CDATA #REQUIRED>
+]>
+
+<garden>
+    <plants catagory="flowers"/>
+    <plants>abc</plants> 
+    <plants catagory="shrubs"/>
+    <plants>abc</plants> 
+</garden>

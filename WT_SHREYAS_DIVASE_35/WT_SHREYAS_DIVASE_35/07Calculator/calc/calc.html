@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+  <head>
+  
+
+    <title>Calculator</title>
+    <style>
+	.simple{
+		width:100%;
+	}
+    #table1{
+	margin-top:100px;
+	width:50%;
+      margin-left:auto;
+      margin-right:auto
+
+    }
+    #tab{
+    width:100%;
+
+    }
+    td
+    {
+    text-align: center;
+    }
+    button{
+    width: 90%;
+    }
+    </style>
+
+    <script>
+    function display(value) 
+    {
+    document.getElementById("scr").value += value;
+    }
+    function calculate()
+    {
+    var p = document.getElementById("scr").value;
+    var q = eval(p);
+    document.getElementById("scr").value = q;
+	 }
+	 function clrscr() {
+	 document.getElementById("scr").value = "";
+	 }
+    </script>
+  </head>
+  <body>
+    <div class="simple">    
+    <div id="table1">
+    <center>
+    <h3>Calculator</h3><br>
+    <div class="border" style="border:1px solid black;padding:20px;width:50%;">
+    <table id="tab" border="0">
+    <tr>
+    <td colspan="4" height="70">
+    <input type="text" class="form-control" id="scr" name="scr" style="border : 1px solid black;border-radius:0px;">
+    </td>
+    </tr>
+    <tr>
+    <td height="80"><button type="button" class="btn btn-dark" value="1" onclick="display('1')">1</button></td>
+    <td><button type="button" class="btn btn-dark" value="2" onclick="display('2')">2</button></td>
+	 <td><button type="button" class="btn btn-dark" value="3" onclick="display('3')">3</button></td>
+	 <td><button type="button" class="btn btn-primary" value="+" onclick="display('+')">+</button></td>
+    </tr>
+    <tr>
+    <td height="70"><button type="button" class="btn btn-dark" value="4" onclick="display('4')">4</button></td>
+    <td><button type="button" class="btn btn-dark" value="5" onclick="display('5')">5</button></td>
+	 <td><button type="button" class="btn btn-dark" value="6" onclick="display('6')">6</button></td>
+	 <td><button type="button" class="btn btn-primary" value="-" onclick="display('-')">-</button></td>
+    </tr>
+    <tr>
+    <td height="70"><button type="button" class="btn btn-dark" value="7" onclick="display('7')">7</button></td>
+    <td><button type="button" class="btn btn-dark" value="8" onclick="display('8')">8</button></td>
+	 <td><button type="button" class="btn btn-dark" value="9" onclick="display('9')">9</button></td>
+	 <td><button type="button" class="btn btn-primary" value="*" onclick="display('*')">*</button></td>
+    </tr>
+    <tr>
+    <td height="70"><button type="button" class="btn btn-dark" value="0" onclick="display('0')">0</button></td>
+    <td><button type="button" class="btn btn-primary" value="." onclick="display('.')">.</button></td>
+	 <td><button type="button" class="btn btn-primary" value="%" onclick="display('%')">%</button></td>
+	 <td><button type="button" class="btn btn-primary" value="/" onclick="display('/')">/</button></td>
+    </tr>
+    <tr>
+    <td colspan="2" height="80">
+    <button type="button" class="btn btn-success" onclick = "calculate()" style="width:100%;">=</button>
+    </td>
+    <td colspan="2" height="60">
+	<button type="button" class="btn btn-danger" onclick = "clrscr()" style="width:100%;">Clear</button>
+    </td>
+    </tr>
+</table>
+</center>
+</div>
+    </div>
+</div>
+  </body>
+</html>

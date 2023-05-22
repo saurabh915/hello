@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!DOCTYPE DYPCET[
+    <!ELEMENT Book (Author, Name, Page, Price)>
+    <!ELEMENT Author (#PCDATA)>
+    <!ELEMENT Name (#PCDATA)>
+    <!ELEMENT Page (#PCDATA)>
+    <!ELEMENT Price (#PCDATA)>
+]>
+<DYPCET>
+    <Library>
+    
+        <Book>
+            <Author> auth. name 
+                <surname>xyz</surname>
+            </Author>
+            <Name> HTML </Name>
+            <Page> 400 </Page>
+            <Price> 300 </Price>
+            <abc> 300 </abc>
+        </Book>
+        
+        <Book>
+            <Author> auth. name1 </Author>
+            <Name> C++ </Name>
+            <Page> 300 </Page>
+            <Price> 200 </Price>
+        </Book>
+        
+        <Book>
+            <Author> auth. name1 </Author>
+            <Name> Java </Name>
+            <Page> 800 </Page>
+            <Price> 300 </Price>
+        </Book>       
+        
+    </Library>
+    
+</DYPCET>
+
+
+
+
+<!--department> ETC </department>
+    <department> Chemical </department-->

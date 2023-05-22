@@ -1,0 +1,7 @@
+<!DOCTYPE DYPCET[
+    <!ELEMENT Book (Author, Name, Page, Price)>
+    <!ELEMENT Author (#PCDATA)>
+    <!ELEMENT Name (#PCDATA)>
+    <!ELEMENT Page (#PCDATA)>
+    <!ELEMENT Price (#PCDATA)>
+]>

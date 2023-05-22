@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="ResumeXML.xsl"?>
+<resume>
+	<personal_details>
+    		<name> Shivam Rajendra Ingle </name>
+    		<contact_no> +91 1234567890 </contact_no>
+    		<e_mail> abc@gmail.com </e_mail>
+    		<address> Sugar Mill Fata, Kasba Bawda, Kolhapur</address>
+	</personal_details>
+	
+	<objective>Obtain a responsible positio in an organization with the best capabilities, skills and knowledge</objective>
+
+	<educational_details>
+   		<sr_no> 1 </sr_no>
+    		<course> B. Tech </course>
+    		<board> Shivaji University, Kolhapur </board>
+    		<percentage> Persuing </percentage>
+    		<passyear> 2024</passyear>
+  	</educational_details>
+
+	<educational_details>
+    		<sr_no> 2</sr_no>
+    		<course> Diploma </course>
+    		<board> MSBTE </board>
+    		<percentage> 94% </percentage>
+    		<passyear> 2021</passyear>
+  	</educational_details>
+
+	<educational_details>
+    		<sr_no> 3</sr_no>
+    		<course> S. S. C. </course>
+    		<board> MSBSHSE, Pune </board>
+    		<percentage> 90.60% </percentage>
+    		<passyear> 2018 </passyear>
+  	</educational_details>
+
+  	<technical_details>
+    		<p_languages> C, C++, Python, Javascript</p_languages>
+    		<database> MySQL </database>
+    		<ide> Visual Studio </ide>
+  	</technical_details>
+	
+	<project_details>
+    		<one> Block-Chain using Java </one>
+    		<two> Chat Application using MERN </two>
+  	</project_details>
+
+	<basic_details>
+    		<father_name>Rajenndra Ingle</father_name>
+    		<dob>02/01/2001</dob>
+		<gender>Male</gender>
+		<nationality>Indian</nationality>
+		<maritial_status>Single</maritial_status>
+		<languages_known>Marathi, Hindi, English</languages_known>
+		<hobbies>Working on Computer Projects, Playing Online Computer Games</hobbies>                  
+  	</basic_details>
+
+	
+</resume>
+	
+		

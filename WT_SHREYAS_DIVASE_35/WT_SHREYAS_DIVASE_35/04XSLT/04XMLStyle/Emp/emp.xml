@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="emp.xsl"?>
+<class>
+
+<employee id="1101">
+<firstname>Dhiraj</firstname>
+<lastname>Nangare</lastname>
+<designation>Developer</designation>
+<salary>60000</salary>
+</employee>
+
+<employee id="1102">
+<firstname>Shivam</firstname>
+<lastname>Ingale</lastname>
+<designation>Administrator</designation>
+<salary>65000</salary>
+</employee>
+
+<employee id="1103">
+<firstname>Rushikesh</firstname>
+<lastname>Kadam</lastname>
+<designation>Manager</designation>
+<salary>55000</salary>
+</employee>
+
+<employee id="1104">
+<firstname>Shreyas</firstname>
+<lastname>Divase</lastname>
+<designation>manager</designation>
+<salary>46000</salary>
+</employee>
+
+<employee id="1105">
+<firstname>harsh</firstname>
+<lastname>solankure</lastname>
+<designation>asstprof</designation>
+<salary>40000</salary>
+</employee>
+
+<employee id="1106">
+<firstname>Shreyas</firstname>
+<lastname>sawant</lastname>                                
+<designation>consultant</designation>
+<salary>90000</salary>
+</employee>
+
+</class>

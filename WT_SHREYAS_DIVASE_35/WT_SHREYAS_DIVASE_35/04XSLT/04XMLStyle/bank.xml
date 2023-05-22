@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!DOCTYPE SBI[
+    <!ELEMENT Branch (Name, IFSC, Amount, Accounts, Staff, Manager, account, name, ACNO, balance)>
+    <!ELEMENT Name (#PCDATA)>
+    <!ELEMENT IFSC (#PCDATA)>
+    <!ELEMENT Amount (#PCDATA)>
+    <!ELEMENT Accounts (#PCDATA)>
+    <!ELEMENT Staff (#PCDATA)>
+    <!ELEMENT Manager (#PCDATA)>
+    <!ELEMENT account (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT ACNO (#PCDATA)>
+    <!ELEMENT balance (#PCDATA)>
+    <!ENTITY nbsp "&#160;">
+]>
+
+
+
+<SBI>
+
+    <Branch>
+        <Name>Saneguruji</Name>
+        <IFSC>SBI075hbj7</IFSC>
+        <Amount>10&nbsp;00000</Amount>
+        <Accounts>500000</Accounts>
+        <Staff>30</Staff>
+        <Manager>XYZ</Manager>
+        
+        <account type="Savings">
+            <name>XYZ</name>
+            <ACNO>102359756225</ACNO>
+            <balance>20000</balance>
+        </account>
+        
+        <loan type="catagory">
+            <loan1>Gold</loan1>
+            <loan2>School</loan2>
+            <loan3>Car</loan3>
+        </loan>
+    </Branch>
+
+    <Branch>
+        <Name>Phulewadi</Name>
+        <IFSC>SBI2365467h</IFSC>
+        <Amount>3600000</Amount>
+        <Accounts>680000</Accounts>
+        <Staff>20</Staff>
+        <Manager>ABC</Manager>
+        
+        <account type="Savings">
+            <name>name2</name>
+            <ACNO>9233495268</ACNO>
+            <balance>80000</balance>
+        </account>
+    </Branch>
+
+    <Branch>
+        <Name>Rankala</Name>
+        <IFSC>SBI958378h</IFSC>
+        <Amount>5840000</Amount>
+        <Accounts>470000</Accounts>
+        <Staff>32</Staff>
+        <Manager>PQR</Manager>
+        
+        <account type="Savings">
+            <name>name3</name>
+            <ACNO>426955975235</ACNO>
+            <balance>40000</balance>
+        </account>
+    </Branch>
+    
+</SBI>

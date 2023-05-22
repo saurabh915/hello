@@ -1,0 +1,57 @@
+<html>
+   <head>
+      <script>
+           
+         function add()
+         {
+           var num1, num2, sum;
+           num1 = parseInt(document.getElementById("FirstNumber").value);
+           num2 = parseInt(document.getElementById("SecondNumber").value);
+           sum = num1 + num2;
+           document.getElementById("answer").value = sum;
+         }
+         
+         function sub()
+         {
+           var num1, num2, sum;
+           num1 = parseInt(document.getElementById("FirstNumber").value);
+           num2 = parseInt(document.getElementById("SecondNumber").value);
+           sub = num1 - num2;
+           document.getElementById("answer").value = sub;
+         }
+         
+         function mul()
+         {
+           var num1, num2, sum;
+           num1 = parseInt(document.getElementById("FirstNumber").value);
+           num2 = parseInt(document.getElementById("SecondNumber").value);
+           mul = num1 * num2;
+           document.getElementById("answer").value = mul;
+         }
+         
+         function div()
+         {
+           var num1, num2, sum;
+           num1 = parseInt(document.getElementById("FirstNumber").value);
+           num2 = parseInt(document.getElementById("SecondNumber").value);
+           div = num1 / num2;
+           document.getElementById("answer").value = div;
+         }
+      </script>
+   </head>
+   
+   <body>
+      <p>First Number: <input id="FirstNumber"></p>
+      
+      <p>Second Number: <input id="SecondNumber"></p>
+      
+      <button onclick="add()">ADD</button>
+      <button onclick="sub()">SUBTRACT</button>
+      <button onclick="mul()">MULTIPLY</button>
+      <button onclick="div()">DIVIDE</button>
+      <p>ANSWER = <input id="answer"></p>
+      
+   </body>
+   
+</html>
+

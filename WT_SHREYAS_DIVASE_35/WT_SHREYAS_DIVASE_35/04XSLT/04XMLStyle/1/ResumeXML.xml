@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="ResumeXML.xsl"?>
+<resume>
+	<personal_details>
+    		<name> Shreyas Sunil Divase </name>
+    		<contact_no> +91 1234567890 </contact_no>
+    		<e_mail> shreyasdivase222@gmail.com </e_mail>
+    		<address> Nana Patil Nagar, Kolhapur</address>
+	</personal_details>
+	
+	<objective>To make use of my interpersonal skills to achieve goals of a company that focuses on customer satisfaction and customer experience. A highly organized and hard-working individual looking for a responsible position to gain practical experience.</objective>
+
+	<educational_details>
+   		<sr_no> 1 </sr_no>
+    		<course> B. Tech </course>
+    		<board> Shivaji University, Kolhapur </board>
+    		<percentage> Persuing </percentage>
+    		<passyear> 2024</passyear>
+  	</educational_details>
+
+	<educational_details>
+    		<sr_no> 2</sr_no>
+    		<course> Diploma </course>
+    		<board> MSBTE </board>
+    		<percentage> 95% </percentage>
+    		<passyear> 2021</passyear>
+  	</educational_details>
+
+	<educational_details>
+    		<sr_no> 3</sr_no>
+    		<course> S. S. C. </course>
+    		<board> MSBSHSE, Pune </board>
+    		<percentage> 71% </percentage>
+    		<passyear> 2018 </passyear>
+  	</educational_details>
+
+  	<skills>
+    		<p_languages> C, C++, Python, Javascript, HTML, CSS</p_languages>
+    		<database> MySQL </database>
+    		<ide> Notepad++, SublimeText, Visual Studio </ide>
+  	</technical_details>
+  	
+  	<certifications>
+  	    <one>AWS</one>
+  	    <two>IOT</two>
+  	    <three>Cicso CCNA</three>
+	</certifications>
+	
+	<project_details>
+    		<one> Drone </one>
+    		<two> RFID based Door Lock </two>
+    		<three> Plant Monitoring System </three>
+  	</project_details>
+
+	<basic_details>
+    	<father_name>Sunil Divase</father_name>
+    	<dob>17/04/2002</dob>
+		<gender>Male</gender>
+		<nationality>Indian</nationality>
+		<maritial_status>Single</maritial_status>
+		<languages_known>Marathi, Hindi, English</languages_known>
+  	</basic_details>
+
+	
+</resume>
+	
+		

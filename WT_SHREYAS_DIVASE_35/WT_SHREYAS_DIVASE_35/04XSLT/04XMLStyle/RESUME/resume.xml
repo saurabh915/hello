@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="resume.xsl"?>
+<Resume>
+    <Personal>
+        <Name>Shreyas Suni Divase</Name>
+        <Mobile>1234567890</Mobile>
+        <Email>shreyasdivase222@gmail.com</Email>
+        <Linkdin>linkdin.com</Linkdin>
+    </Personal>
+
+    <Educational>
+
+    </Educational>
+
+    <Technical>
+
+    </Technical>
+
+    <Project>
+
+    </Project>
+</Resume>

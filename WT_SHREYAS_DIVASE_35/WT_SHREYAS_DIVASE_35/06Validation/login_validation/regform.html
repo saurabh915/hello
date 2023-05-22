@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form With Validation...</title>
+	<style>
+		label {
+			display: block;
+			margin: 10px 0;
+		}
+		
+		input[type="text"],
+		input[type="email"],
+		input[type="password"] {
+			padding: 10px;
+			margin: 5px 0;
+			width: 50%;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		
+		input[type="submit"] {
+			background-color: RED;
+			color: white;
+			padding: 10px;
+			margin: 10px 0;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		input[type="submit"]:hover {
+			background-color: #45a049;
+			
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Registration Form</h1>
+	<form id="registration-form" onsubmit="return validateForm() " action="valid.html">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+		
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+		<br>
+		
+		<input type="submit" value="Submit">
+	</form>
+	
+	<script src="registration-form.js"></script>
+</body>
+</html>
+

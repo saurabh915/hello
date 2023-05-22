@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE DYPCET SYSTEM "ext_dtd.dtd">
+<DYPCET>
+    <Library>
+    
+        <Book>
+            <Author> auth. name </Author>
+            <Name> HTML </Name>
+            <Page> 400 </Page>
+            <Price> 300 </Price>
+        </Book>
+        
+        <Book1>
+            <Author> auth. name1 </Author>
+            <Name> C++ </Name>
+            <Page> 300 </Page>
+            <Price> 200 </Price>
+        </Book1>
+        
+        <Book>
+            <Author> auth. name1 </Author>
+            <Name> Java </Name>
+            <Page> 800 </Page>
+            <Price> 300 </Price>
+        </Book>       
+        
+    </Library>
+    
+</DYPCET>
+
+
+
+<!--department> ETC </department>
+    <department> Chemical </department-->
